@@ -1,0 +1,19 @@
+.pagination li a,
+.pagination li.disabled,
+.pagination li.active {
+    min-width: 35px;
+    min-height: 35px;
+    background-color: #fff;
+    display: block;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 35px;
+    -webkit-box-shadow: 0 18px 40px rgba(18, 130, 191, 0.08);
+    box-shadow: 0 18px 40px rgba(18, 130, 191, 0.08);
+}
+
+.pagination li.active,
+.pagination li a.hover {
+    background-color: #16ccf5;
+    color: #fff;
+}
